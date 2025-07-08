@@ -1,0 +1,24 @@
+
+body {
+  font-family: Arial, sans-serif;
+}
+#parking-map {
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  gap: 10px;
+}
+.espacio {
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+.libre {
+  background-color: lightgreen;
+}
+.reservado {
+  background-color: gold;
+}
+.ocupado {
+  background-color: tomato;
+}
